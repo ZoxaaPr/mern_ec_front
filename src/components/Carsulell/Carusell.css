@@ -1,0 +1,78 @@
+.slick{
+    width: 100%;
+    min-height: 200px;
+    background-image: linear-gradient(to right top, #121212, #121212, #121212, #121212, #121212);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 20px 0;
+}
+.slick_slide{
+    width: 90vw;
+    min-height: 200px;
+    background-image: linear-gradient(to right top, #121212, #121212, #121212, #121212, #121212);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slick_page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right top, #121212, #121212, #121212, #121212, #121212);
+    min-height: 550px;
+
+}
+.pages_slide{
+    min-height: 550px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.pages_slide_con{
+    padding-bottom: 10px;
+    width: 500px;
+    
+    background-image: linear-gradient(to right top, #121212, #121212, #121212, #121212, #121212);
+    margin: 10px;
+}
+.pages_slide_con_img{
+    width: 100%;
+    height: 90%;
+}
+.tomato{
+    background-color:tomato;
+}
+
+@media screen and (max-width: 950px) {
+    .pages_slide_con{
+        width: 200px;
+        min-height: 200px;
+        background-image: linear-gradient(to right top, #121212, #121212, #121212, #121212, #121212);
+        
+    }
+    .slick_slide{
+        width: 75vw;
+        min-height: 200px;
+        background-image: linear-gradient(to right top, #121212, #121212, #121212, #121212, #121212);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.px20{
+    font-size: 40px;
+    margin: 0;
+    margin-right: 25px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    flex-wrap: wrap;
+    
+}

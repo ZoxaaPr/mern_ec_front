@@ -1,0 +1,25 @@
+.profile {
+    
+    width:100%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 100px;
+    background: #000;
+}
+.marginyleft_10px{
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 950px) {
+    
+    .detail {
+    
+        
+        height: 100%;
+       margin: 0;
+        padding: 20px 0px;
+    }
+}
