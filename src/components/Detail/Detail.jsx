@@ -49,7 +49,7 @@ const Detail = () => {
             {loading ? <Loader /> : <><div className='detail_top'></div>
                 <div className='detail'>
                     <div className='detail_flex_end'><div className='detail_img'>
-                        <img src="/ddd.png" alt="" className='detail_img_100' />
+                        <img src={"/" + product.images?.[0]?.url + ".png"} alt="" className='detail_img_100' />
                     </div></div>
                     <div className='detail_info'>
                         <span className='marginyop_10px detail_info_h1'>{product.name}</span>
